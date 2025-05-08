@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="jake.css" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><img src="gifgif.gif" height="50px" />JAKE</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="about-section">
+    <div class="text-content">
+      <p></p>
+      <h1>Hello, I'm <span class="highlight"><br />Lowell Jake Baldo</span><br /> Student From GRC <img src="GRC LOGO.png" height="50px" /></h1>
+    </div>
+    <div class="image-content">
+      <img src="jake nobg.png" />
+      <br>
+      <br>
+      <br>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <div class="profile-image">
+      <img src="P.jpg" alt="Profile Picture" />
+    </div>
+    <div class="about-content">
+       <br>
+      <br>
+      <h1 style="color: black;">About Me</h1>
+      <p>
+        I am always willing to grow and to help others too. I love music and doing my best in everything i do to learn. I am always open for improvement and working with others. I grind always so i can be better than yesterday. Passion, hard work and Believe.
+      </p>
+
+      <div class="tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" onclick="showTab('skills', event)">Info</button>
+          <button class="tab-btn" onclick="showTab('experience', event)">Skills and Hobby</button>
+          <button class="tab-btn" onclick="showTab('education', event)">Education</button>
+        </div>
+
+        <div id="skills" class="tab-content active">
+          <p class="section-title">Birthday and Age</p>
+          <p>February 9, 2004 - 21 years old</p>
+          <p class="section-title">Location</p>
+          <p>City: Manila, Philippines</p>
+          <p class="section-title">Number</p>
+          <p>Phone: 099594323</p>
+        </div>
+
+        <div id="experience" class="tab-content">
+          <p class="section-title">Skills</p>
+          <p>Making games automation, Planning, Time managing, creative in designing,</p>
+          <p class="section-title">Hobby</p>
+          <p>Playing piano, Making Auto clickers and a.i BOT, Playing Online Games</p>
+          <p class="section-title">Phone OS Rooting and Modifying</p>
+          <p>I can Change phone os, I remember i convert mac to android os</p>
+        </div>
+
+        <div id="education" class="tab-content">
+          <p class="section-title">School</p>
+          <img src="GRC LOGO.png" height="50px" />
+          <p><strong>2023</strong> – BSIT</p>
+          <p><strong>2025</strong> – still studying</p>
+          <p class="section-title">Goals to graduate</p>
+          <p>– To graduate from this course</p>
+          <p>– Coming soon...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="section-header">
+      <h1 style="font-size: 100px; color: black;">My Services</h1>
+    </div>
+
+    <div class="services-container">
+      <div class="service-card">
+        <div class="icon">✏️</div>
+        <h3>Editor</h3>
+        <p style="color: rgb(241, 241, 241);">
+          I can edit pictures using Adobe PhotoShop i am still learning and growing in using it but i can help you edit the image
+        </p>
+        <img src="photo edit.jpg" height="200px" width="200px" />
+        <br /><a href="#">Learn more</a>
+      </div>
+      <div class="service-card">
+        <div class="icon">🛠️</div>
+        <h3>Game Automation</h3>
+        <p style="color: aliceblue;">
+          Making online games automation, I can help you to create an auto play in the game you want
+        </p>
+        <img src="auto.jpg" height="200px" width="200px" />
+        <br /><a href="#">Learn more</a>
+      </div>
+      <div class="service-card">
+        <div class="icon">💻</div>
+        <h3>Web Developer</h3>
+        <p style="color: aliceblue;">
+          Im still learning to be more good in making website but i have a little knowledge to help you.
+        </p>
+        <img src="web cars.PNG" height="200px" width="200px" />
+        <br /><a href="#">Learn more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section (Placeholder) -->
+  <section id="portfolio" style="padding: 80px; background-color: #0f0e0e; text-align: center;">
+    <h2 style="color: rgb(255, 255, 255);font-size: xx-large;">MY WORKS</h2>
+    <section class="card-section">
+      <div class="card-container">
+        <div class="card">
+          <img src="calendar.PNG" alt="Card Image 1">
+          <h3 style="color: rgb(253, 209, 12);">Calendar on web</h3>
+          <p style="color: antiquewhite;">this is my activity to make calendar in web</p>
+        </div>
+        <div class="card">
+          <img src="jake icon.PNG" alt="Card Image 2">
+          <h3 style="color: rgb(253, 209, 12);">Name Icon</h3>
+          <p style="color: aliceblue;">here i make a name using icons from bootstrap</p>
+        </div>
+        <div class="card">
+          <img src="game aut.jpg" alt="Card Image 3">
+          <h3 style="color: rgb(253, 209, 12);">Game Automation</h3>
+          <p style="color: antiquewhite;">I made an auto clicker in my own in this image</p>
+        </div>
+      </div>
+    </section>
+    
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <h2 class="contact-title">Contact me here</h2>
+    <div class="contact-container">
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <textarea placeholder="Your Message"></textarea>
+        <button class="submit-btn">Submit</button>
+      </div>
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="bi bi-envelope-fill"></i>
+          <span>Kingbaldo34@gmail.com</span>
+        </div>
+        <div class="info-item">
+          <i class="bi bi-telephone-fill"></i>
+          <span>09915975832</span>
+        </div>
+        <div class="socials">
+          <a href="https://www.facebook.com/share/1HFyx9qiu4/" target="_blank"><i class="bi bi-facebook"></i></a>
+          <a href="https://twitter.com/yourprofile" target="_blank"><i class="bi bi-twitter-x"></i></a>
+          <a href="https://www.instagram.com/lowelljakebaldo/" target="_blank"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCbXzZsWi336HrYNf_QTxFMA" target="_blank"><i class="bi bi-youtube"></i></i></a>
+          <h5>also SUBSCIBE in my YT  <img src="subscr.gif" height="50px" /></h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
